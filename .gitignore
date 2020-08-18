@@ -1,0 +1,6 @@
+/node_modules
+/dist
+/wyyVideo/*.mp4
+/adio/*.mp3
+/srt/*.srt
+.DS_Store

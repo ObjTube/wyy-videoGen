@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node", "fs-extra", "fluent-ffmpeg"],
+    "outDir": "./dist",
+    "allowJs": true
+  },
+  "include": ["/**/*", "node_modules/subtitle/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "dist"]
+}
